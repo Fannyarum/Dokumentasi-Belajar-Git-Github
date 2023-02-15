@@ -21,6 +21,7 @@ Download GitHub CLI di [cli.github.com](https://cli.github.com/) dan Install Git
 Buka repo yang sudah anda clone dengan text editor, edit file tersebut, klik gambar fork di sebelah kiri kemudian commit. Jangan lupa config di cmd.
 -   **git config**  
     Salah satu perintah git yang paling banyak digunakan adalah  **git config**, yang bisa digunakan untuk mengatur konfigurasi tertentu sesuai keinginan pengguna, seperti email, algoritma untuk diff, username, format file, dll. Untuk username dan email gunakan: 
+    
     ``git config --global user.name "Fannyarum"``
    `` git config --global user.email fannysiaplg30@gmail.com``
    
