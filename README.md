@@ -15,7 +15,7 @@ Download GitHub CLI di [cli.github.com](https://cli.github.com/) dan Install Git
 -   **git clone**  
     Perintah git clone digunakan untuk checkout repositori.  Gunakan:
     
-    ``git clone /path/to/repository``
+    `git clone /path/to/repository`
 
 ## Commit dan Push
 
@@ -23,25 +23,24 @@ Buka repo yang sudah anda clone dengan text editor, edit file tersebut, klik gam
 -   **git config**  
     Salah satu perintah git yang paling banyak digunakan adalah  **git config**, yang bisa digunakan untuk mengatur konfigurasi tertentu sesuai keinginan pengguna, seperti email, algoritma untuk diff, username, format file, dll. Untuk username dan email gunakan: 
     
-    ``git config --global user.name "Fannyarum"``
+    `git config --global user.name "Fannyarum"`
     
-   `` git config --global user.email fannysiaplg30@gmail.com``
+    `git config --global user.email fannysiaplg30@gmail.com`
    
-    Cek di pull request klik commit & push dan beri nama commit tersebut.
 
 ## Check 
 Gunakan perintah berikut di cmd:
-- **git remote**  
+-  **git remote**  
 Perintah git remote akan membuat user terhubung ke remote repository. Perintah berikut ini akan menampilkan repository yang sedang dikonfigurasi.
 
-``git remote -v``
+    `git remote -v`
 
 -   **git push**  
     git push adalah perintah git dasar lainnya. Push akan mengirimkan perubahan ke master branch dari remote repository yang berhubungan dengan direktori kerja Anda. Misalnya:
     
-``git push origin master``
+     `git push origin master`
 
 -   **git pull**  
     Untuk menggabungkan semua perubahan yang ada di remote repository ke direktori lokal, gunakan perintah pull:
     
-    ``git pull upstream master``
+     `git pull upstream master`
